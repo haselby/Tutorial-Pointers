@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    char *mystr, *m;
+    char *mystr, *m; //creates pointers named mystr and m
     mystr = (char*)malloc(1000); //allocate memory for 999 characters and one centinal character
     printf("Enter string here: ");
 //    scanf("%s", mystr); // will read up through first space
